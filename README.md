@@ -1,7 +1,7 @@
 # React-Logical
 🚀 React-Logical is a daily practice repository for improving React.js logic and problem-solving skills. 
 
-#Topics Covered:<br><br>
+<h2>Topics Covered:</h2><br><br>
 
 ✅ React Components & Props<br>
 ✅ State Management (useState, useReducer)<br>
@@ -10,5 +10,5 @@
 ✅ API Handling & Asynchronous Operations<br>
 ✅ React Patterns & Best Practices<br>
 
-#Goal: 
+<h2>Goal:</h2>
 Consistent daily practice to strengthen React skills and logical thinking for frontend development.
