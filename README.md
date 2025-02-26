@@ -1,8 +1,11 @@
-# React + Vite
+<h3>🚀 React-Logical is a daily practice repository for improving React.js logic and problem-solving skills. It includes hands-on exercises, custom hooks, component-based challenges, and real-world scenarios to sharpen your frontend development expertise.</h3>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h2>🔹 Topics Covered:</h2>
+✅ React Components & Props<br>
+✅ State Management (useState, useReducer)<br>
+✅ Custom Hooks & Reusable Logic<br>
+✅ Performance Optimization (Memoization, Lazy Loading)<br>
+✅ API Handling & Asynchronous Operations<br>
+✅ React Patterns & Best Practices<br>
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h2>📌 Goal: Consistent daily practice to strengthen React skills and logical thinking for frontend development.</h2>
