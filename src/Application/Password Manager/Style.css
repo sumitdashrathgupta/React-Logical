@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: .2s linear;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.063);
+}
+
+.contenar {
+    width: 50%;
+    height: 50%;
+    margin: 10% auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+
+    .form_section {
+        padding: 30px 20px;
+        width: 50%;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+        background: linear-gradient(45deg, rgb(29, 29, 71), rgb(26, 6, 36), rgb(85, 29, 29));
+        border-radius: 20px;
+        box-shadow: 7px 8px 10px gray;
+        position: relative;
+    }
+
+    & .form_data {
+        width: 100%;
+        margin-bottom: 10px;
+        position: relative;
+    }
+
+}
+
+.form_section:hover {
+    background: linear-gradient(45deg, rgb(85, 29, 29), rgb(26, 6, 36), rgb(29, 29, 71));
+
+}
+
+#fname {
+    margin-right: 10px;
+}
+
+.form_data input {
+    width: 95%;
+    padding: 10px 20px;
+}
+
+.form_data_name {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.data {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.form_data_name input {
+    width: 90%;
+
+}
+
+.btn {
+    padding: 10px 15px;
+    border: none;
+    font-weight: 700;
+    border-radius: 10px;
+    background: linear-gradient(45deg, rgb(183, 183, 242), rgb(26, 6, 36), rgb(235, 103, 103));
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    /* outline: 1px solid white; */
+    background: linear-gradient(45deg, rgb(235, 103, 103), rgb(26, 6, 36), rgb(183, 183, 242));
+}
+
+input {
+    background-color: rgb(210, 229, 249);
+    border: none;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: none;
+
+}
+
+label {
+    font-size: 17px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: white;
+}
+
+span {
+    position: absolute;
+    left: 85%;
+    top: 55%;
+
+}
+
+.eye {
+    font-weight: 600;
+    font-size: 20px;
+}
