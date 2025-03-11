@@ -58,6 +58,10 @@ const FormData = () => {
                         <label htmlFor="pincode">PinCode : </label>
                         <input type="number" id="pincode" name="Pincode" value={Data.Pincode} placeholder="PinCode" onChange={Handlevent} />
                     </div>
+                    <div className="form_data data">
+                        <label htmlFor="pincode">PinCode : </label>
+                        <input type="number" id="pincode" name="Pincode" value={Data.Pincode} placeholder="PinCode" onChange={Handlevent} />
+                    </div>
                     <button className="btn" type="Submit">Submit</button>
                 </form>
             </div>
