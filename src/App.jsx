@@ -1,10 +1,10 @@
 import React from 'react'
-import From from "./Application/Password Manager/FormData"
+import Search from "./Application/Search/App"
 
 function App() {
   return (
     <>
-      <From />
+      <Search />
     </>
   )
 }

@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    text-align: center;
+    background: linear-gradient(45deg, rgb(9, 9, 94), black, rgb(32, 5, 5));
+    width:15%;
+    margin: 5% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+
+h1 {
+    font-family: 25px;
+    font-weight: 700;
+    color: white;
+    margin: 5% 0;
+}
+
+ul {
+    list-style: none;
+    margin: 3% 0;
+
+    & li {
+        margin: 5px 0;
+        font-size: 20px;
+        color: white;
+        font-weight: 600;
+        padding: 5px;
+        transition: .2s linear;
+    }
+
+    & li:hover{
+        cursor: pointer;
+        background: tomato;
+        border-radius: 5px;
+    }
+}
+
+input {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: none;
+}
