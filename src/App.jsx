@@ -1,10 +1,10 @@
 import React from 'react'
-import Search from "./Application/Search/App"
+import Drak from "./Application/Drak Mode/App"
 
 function App() {
   return (
     <>
-      <Search />
+      <Drak />
     </>
   )
 }
